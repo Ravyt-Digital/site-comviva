@@ -172,3 +172,5 @@ body{font-family:var(--sans);background:var(--paper)}
 @keyframes comviva-ring{to{--ring-angle:360deg}}
 @media(prefers-reduced-motion:reduce){.button::after,.site-header .header-contact::after{animation:none}}
 @media(max-width:1190px){.site-header .header-contact{display:none}}
+.site-credit{margin:16px 0;color:#a8a8a8;font-size:12px;line-height:1.6}
+.site-credit a{color:#e6d082;text-decoration:underline;text-underline-offset:3px}
